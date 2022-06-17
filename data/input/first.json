@@ -1,0 +1,17 @@
+{"book":{"symbol":"ABBN", "bid": [], "ask": []}}
+{"book":{"symbol":"ABBN", "bid": [{"count":1, "quantity":1300,"price":50.100000}], "ask": []}}
+{"book":{"symbol":"ABBN", "bid": [{"count":1, "quantity":900,"price":50.120000}, {"count":1, "quantity":1300, "price":50.100000}], "ask":[]}}
+{"book":{"symbol":"ABBN", "bid": [{"count":1, "quantity":900,"price":50.120000}, {"count":1, "quantity":1300, "price":50.100000}], "ask":[{"count":1, "quantity":1900, "price":50.140000}]}}
+{"book":{"symbol":"ABBN", "bid": [{"count":2, "quantity":1300,"price":50.120000}, {"count":1, "quantity":1300, "price":50.100000}], "ask":[{"count":1, "quantity":1900, "price":50.140000}]}}
+{"book":{"symbol":"ABBN", "bid": [{"count":3, "quantity":1530,"price":50.120000}, {"count":1, "quantity":1300, "price":50.100000}], "ask":[{"count":1, "quantity":1900, "price":50.140000}]}}
+{"book":{"symbol":"ABBN", "bid": [{"count":1, "quantity":200,"price":50.130000}, {"count":3, "quantity":1530, "price":50.120000},{"count":1, "quantity":1300, "price":50.100000}], "ask": [{"count":1,"quantity":1900, "price":50.140000}]}}
+{"trade":{"symbol":"ABBN", "quantity":200, "price":50.130000}}
+{"book":{"symbol":"ABBN", "bid": [{"count":3, "quantity":1530,"price":50.120000}, {"count":1, "quantity":1300, "price":50.100000}], "ask":[{"count":1, "quantity":220, "price":50.130000}, {"count":1,"quantity":1900, "price":50.140000}]}}
+{"book":{"symbol":"ABBN", "bid": [{"count":3, "quantity":1530,"price":50.120000}, {"count":1, "quantity":1300, "price":50.100000}], "ask":[{"count":2, "quantity":550, "price":50.130000}, {"count":1,"quantity":1900, "price":50.140000}]}}
+{"book":{"symbol":"ABBN", "bid": [{"count":3, "quantity":1530,"price":50.120000}, {"count":1, "quantity":1300, "price":50.100000}], "ask":[{"count":3, "quantity":655, "price":50.130000}, {"count":1,"quantity":1900, "price":50.140000}]}}
+{"book":{"symbol":"ABBN", "bid": [{"count":3, "quantity":1530,"price":50.120000}, {"count":1, "quantity":1300, "price":50.100000}], "ask":[{"count":4, "quantity":1245, "price":50.130000}, {"count":1,"quantity":1900, "price":50.140000}]}}
+{"trade":{"symbol":"ABBN", "quantity":220, "price":50.130000}}
+{"trade":{"symbol":"ABBN", "quantity":330, "price":50.130000}}
+{"trade":{"symbol":"ABBN", "quantity":105, "price":50.130000}}
+{"trade":{"symbol":"ABBN", "quantity":345, "price":50.130000}}
+{"book":{"symbol":"ABBN", "bid": [{"count":3, "quantity":1530,"price":50.120000}, {"count":1, "quantity":1300, "price":50.100000}], "ask":[{"count":1, "quantity":245, "price":50.130000}, {"count":1,"quantity":1900, "price":50.140000}]}}

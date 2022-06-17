@@ -2,7 +2,7 @@
 [![macos](https://github.com/philong6297/order-book-watcher/actions/workflows/macos.yml/badge.svg)](https://github.com/philong6297/order-book-watcher/actions/workflows/macos.yml)
 [![windows](https://github.com/philong6297/order-book-watcher/actions/workflows/windows.yml/badge.svg)](https://github.com/philong6297/order-book-watcher/actions/workflows/windows.yml)
 # order-book-watcher
-A watcher which tracks the order book status from a internal market simulator and report the intention requests
+A watcher which tracks the order book status from an internal market simulator and reports the intention requests
 
 ## Development and runtime environment specifications
 
@@ -45,7 +45,7 @@ Make sure you have installed:
 
 Build the project with CMake and Ninja:
 ```bash
-# create build environment
+# create a build environment
 mkdir build
 cd build
 
@@ -71,11 +71,11 @@ There is an additional [data/output-ground-truth/](/data/output-ground-truth/) w
 
 ## About the solution
 After some manual tests, I came up with these assumptions:
-- input files is formatted in JSON Lines, each line is either a `Order Book status` or a successful `Trade record` with corresponding information
+- input files are formatted in JSON Lines, each line is either an `Order Book status` or a successful `Trade record` with corresponding information
 - the data is well-structured, there is no need to validate them
 - based on the problem description, I can know that:
-  - the `CANCEL` cases only happens when there is no `Trade record` in between.
-  - by compare the previous and next `Order Book status`, with additional information from `Trade record`, I can classify the `AGGRESSIVE` order in which side.
+  - the `CANCEL` cases only happen when there is no `Trade record` in between.
+  - by comparing the previous and next `Order Book status`, with additional information from `Trade record`, I can classify the `AGGRESSIVE` order in which side.
 
 For program parallelizing task, I have observed that to classify the order, I only need the information of the previous and next `Order Book status` with `Trade record`. Therefore, it is reasonable to pipeline the parsing phase with classification phase:
 - Parse each line from input file
